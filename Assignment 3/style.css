@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#bg {
+  height: 100vh;
+  width: 100svw;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-origin: center;
+  background-size: 100vw 100vh;
+  display: flex;
+  background-image: url(https://images.unsplash.com/photo-1614837617300-3d6ee784aa59?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80);
+}
+#button {
+  border: 2px solid orangered;
+  width: 70px;
+  height: 20px;
+  padding: 10px 20px;
+  display: flex;
+  margin: 35vh 45vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 700;
+  color: red;
+  transition: 0.3s;
+}
+
+#button:hover {
+  transform: translate(0, -10px);
+  border: 2px solid yellow;
+  color: white;
+  /* transform: scale(1.08); */
+  cursor: pointer;
+  box-shadow: 0px 10px 14px -4px rgba(250, 221, 58, 1);
+}
