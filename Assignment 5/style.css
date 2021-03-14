@@ -1,0 +1,47 @@
+* {
+  font-family: "Rubik", sans-serif;
+  color: #1d3557;
+}
+
+.tilt {
+  color: white;
+}
+
+#edu {
+  font-size: 500;
+}
+
+.edu_val {
+  font-size: smaller;
+  color: #;
+}
+
+.side {
+  background-color: #ff9e00;
+}
+
+.top_bar {
+  background-color: #faedcb;
+}
+
+.pic {
+  border-radius: 5px;
+  border: 10px solid white;
+}
+
+.highli {
+  background-color: #fadde1;
+  text-align: center;
+}
+
+.lol {
+  text-align: center;
+}
+
+.tips {
+  list-style-type: square;
+}
+
+.pop {
+  list-style: none;
+}
