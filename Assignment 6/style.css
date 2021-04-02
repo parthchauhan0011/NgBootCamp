@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: coral;
+  background-image: url("https://images.unsplash.com/photo-1512950050685-b1d4ae63d2df?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+#addBar {
+  margin: 50px auto;
+  padding: 50px auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 4vw;
+  padding: 10px auto;
+  margin: 10px auto;
+  margin-top: 25vh;
+  color: #f08080;
+}
+
+#addBtn {
+  padding: 20px auto;
+  margin: 20px auto;
+}
+
+#liList {
+  margin: 50px auto;
+  padding: 20px auto;
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  border: 1px solid grey;
+  padding: 5px auto;
+  cursor: pointer;
+  margin: 5px auto;
+  width: 300px;
+}
